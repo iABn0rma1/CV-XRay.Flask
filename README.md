@@ -2,6 +2,9 @@
 
 CV Extractor is a web application that allows users to upload CV files (in `.doc`, `.docx`, and `.pdf` formats), and extracts contact information (emails and phone numbers) from them.
 Live demo [here](https://cv-xray.onrender.com)
+<a href="https://cv-xray.onrender.com">
+<img width="790" alt="image" src="https://github.com/user-attachments/assets/ca71a2d5-72b1-45e4-9e6c-efe84d9144f2">
+</a>
 
 ## Tech Stack
 
