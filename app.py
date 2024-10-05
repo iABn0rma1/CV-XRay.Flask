@@ -5,14 +5,14 @@ from shutil import move
 import time
 import docx2txt
 from PyPDF2 import PdfReader
-from config import SECRET_KEY
+# from config import SECRET_KEY
 from openpyxl import Workbook
 from flask import Flask, render_template, request, flash, send_file
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
-app.secret_key = SECRET_KEY
+# app.secret_key = SECRET_KEY
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in {'docx', 'doc', 'pdf'}
